@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beaconsolutions.maestroid" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Activities.MusicId"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.LevelActivity"
+            android:label="@string/title_activity_level"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activities.TaskActivity"
+            android:label="@string/title_activity_task"
+            android:noHistory="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activities.StatSlidePagerActivity"
+            android:label="@string/title_activity_stat_slide_pager"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activities.LevelStatsActivity"
+            android:label="@string/title_activity_level_stats" >
+        </activity>
+    </application>
+
+</manifest>

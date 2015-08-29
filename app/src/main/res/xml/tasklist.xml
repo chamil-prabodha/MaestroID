@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Level
+        Type="Notes"
+        Description="Notes are the 'atoms' of much written music. The term 'Note' can produce two meanings, either a sign used in musical notation or a pitched sound itself ">
+
+        <Task type="Scale" name="Identify The Major Scale">
+
+            <Attributes scalename="C Major" duration="16" velocity="127" correct="C"/>
+
+
+            <Answers incorrect="D"/>
+            <Answers incorrect="E"/>
+            <Answers incorrect="F"/>
+            <Answers incorrect="G"/>
+
+            <Note id="60"/>
+            <Note id="62"/>
+            <Note id="64"/>
+            <Note id="65"/>
+            <Note id="67"/>
+            <Note id="69"/>
+            <Note id="71"/>
+            <Note id="72"/>
+
+        </Task>
+
+        <Task type="Scale" name="Identify The Scale">
+            <Attributes scalename="E flat Major" duration="16" velocity="127" correct="C"/>
+
+
+            <Answers incorrect="D"/>
+            <Answers incorrect="E"/>
+            <Answers incorrect="F"/>
+            <Answers incorrect="G"/>
+
+            <Note id="63"/>
+            <Note id="65"/>
+            <Note id="67"/>
+            <Note id="68"/>
+            <Note id="70"/>
+            <Note id="72"/>
+            <Note id="74"/>
+            <Note id="75"/>
+
+        </Task>
+    </Level>
+
+    <Level
+        Type="Intervals"
+        Description="In music theory, an interval is the difference between two pitches. In Western music, intervals are most commonly differences between notes of a diatonic scale.">
+
+        <Task type="Scale" name="Identify The Scale">
+
+            <Attributes scalename="C Major" duration="16" velocity="127" correct="C"/>
+
+
+            <Answers incorrect="D"/>
+            <Answers incorrect="E"/>
+            <Answers incorrect="F"/>
+            <Answers incorrect="G"/>
+
+            <Note id="72"/>
+            <Note id="62"/>
+            <Note id="64"/>
+            <Note id="65"/>
+            <Note id="67"/>
+            <Note id="69"/>
+            <Note id="71"/>
+            <Note id="72"/>
+
+        </Task>
+
+        <Task type="Scale" name="Identify The Scale">
+            <Attributes scalename="E flat Major" duration="16" velocity="127" correct="C"/>
+
+
+            <Answers incorrect="D"/>
+            <Answers incorrect="E"/>
+            <Answers incorrect="F"/>
+            <Answers incorrect="G"/>
+
+            <Note id="63"/>
+            <Note id="65"/>
+            <Note id="67"/>
+            <Note id="68"/>
+            <Note id="70"/>
+            <Note id="72"/>
+            <Note id="74"/>
+            <Note id="75"/>
+
+        </Task>
+    </Level>
+
+    <Level
+        Type="Chords"
+        Description="A chord, in music, is any harmonic set of three or more notes that is heard as if sounding simultaneously. The most frequently encountered chords are triads, so called because they consist of three distinct notes.">
+
+        <Task type="Scale" name="Identify The Scale">
+
+            <Attributes scalename="C Major" duration="16" velocity="127" correct="C"/>
+
+
+            <Answers incorrect="D"/>
+            <Answers incorrect="E"/>
+            <Answers incorrect="F"/>
+            <Answers incorrect="G"/>
+
+            <Note id="75"/>
+            <Note id="62"/>
+            <Note id="64"/>
+            <Note id="65"/>
+            <Note id="67"/>
+            <Note id="69"/>
+            <Note id="71"/>
+            <Note id="72"/>
+
+        </Task>
+
+        <Task type="Scale" name="Identify The Scale">
+            <Attributes scalename="E flat Major" duration="16" velocity="127" correct="C"/>
+
+
+            <Answers incorrect="D"/>
+            <Answers incorrect="E"/>
+            <Answers incorrect="F"/>
+            <Answers incorrect="G"/>
+
+            <Note id="63"/>
+            <Note id="65"/>
+            <Note id="67"/>
+            <Note id="68"/>
+            <Note id="70"/>
+            <Note id="72"/>
+            <Note id="74"/>
+            <Note id="75"/>
+
+        </Task>
+    </Level>
+
+    <Level
+        Type="Scales"
+        Description="In music theory, a scale is any set of musical notes ordered by fundamental frequency or pitch. A scale ordered by increasing pitch is an ascending scale, and a scale ordered by decreasing pitch is a descending scale.">
+
+        <Task type="Scale" name="Identify The Scale">
+
+            <Attributes scalename="C Major" duration="16" velocity="127" correct="C"/>
+
+
+            <Answers incorrect="D"/>
+            <Answers incorrect="E"/>
+            <Answers incorrect="F"/>
+            <Answers incorrect="G"/>
+
+            <Note id="60"/>
+            <Note id="62"/>
+            <Note id="64"/>
+            <Note id="65"/>
+            <Note id="67"/>
+            <Note id="69"/>
+            <Note id="71"/>
+            <Note id="72"/>
+
+        </Task>
+
+        <Task type="Scale" name="Identify The Scale">
+            <Attributes scalename="E flat Major" duration="16" velocity="127" correct="C"/>
+
+
+            <Answers incorrect="D"/>
+            <Answers incorrect="E"/>
+            <Answers incorrect="F"/>
+            <Answers incorrect="G"/>
+
+            <Note id="63"/>
+            <Note id="65"/>
+            <Note id="67"/>
+            <Note id="68"/>
+            <Note id="70"/>
+            <Note id="72"/>
+            <Note id="74"/>
+            <Note id="75"/>
+
+        </Task>
+    </Level>
+</PreferenceScreen>

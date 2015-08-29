@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:id="@+id/task_layout"
+    android:background="@drawable/back_3_blur"
+    tools:context="com.beaconsolutions.maestroid.Activities.TaskActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:id="@+id/panel">
+
+        <TextView
+            android:id="@+id/Task_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="25dp"
+            android:textColor="@color/background_material_dark"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="30dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+               <com.beaconsolutions.maestroid.Utilities.RippleBackground
+                   android:id="@+id/ripple_back"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   custom:rb_color="@android:color/holo_blue_dark"
+                   custom:rb_radius="30dp"
+                   custom:rb_rippleAmount="1"
+                   custom:rb_duration="1000"
+                   custom:rb_scale="6">
+
+                   <com.beaconsolutions.maestroid.Utilities.Chronometer
+                       android:id="@+id/Chronometer"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:format="%s"
+                       android:textSize="40sp"
+                       android:textColor="@color/background_material_dark"
+                       android:layout_centerInParent="true"/>
+
+                    <com.beaconsolutions.maestroid.Utilities.CircleLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        custom:rv_centered="true">
+
+                        <com.beaconsolutions.maestroid.Utilities.RippleView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="30dp"
+                            custom:rv_centered="true">
+
+                            <Button
+                                android:id="@+id/button_1"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:text="C"
+                                android:textSize="30sp"
+                                android:textColor="@color/background_material_dark"
+                                android:background="@drawable/circular_button_selector"/>
+
+                        </com.beaconsolutions.maestroid.Utilities.RippleView>
+
+                        <com.beaconsolutions.maestroid.Utilities.RippleView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="30dp"
+                            custom:rv_centered="true">
+
+                            <Button
+                                android:id="@+id/button_2"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:text="C"
+                                android:textSize="30sp"
+                                android:textColor="@color/background_material_dark"
+                                android:background="@drawable/circular_button_selector"/>
+
+                        </com.beaconsolutions.maestroid.Utilities.RippleView>
+
+                        <com.beaconsolutions.maestroid.Utilities.RippleView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="30dp"
+                            custom:rv_centered="true">
+
+                            <Button
+                                android:id="@+id/button_3"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:text="C"
+                                android:textSize="30sp"
+                                android:textColor="@color/background_material_dark"
+                                android:background="@drawable/circular_button_selector"/>
+
+                        </com.beaconsolutions.maestroid.Utilities.RippleView>
+
+                        <com.beaconsolutions.maestroid.Utilities.RippleView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="30dp"
+                            custom:rv_centered="true">
+
+                            <Button
+                                android:id="@+id/button_4"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:text="C"
+                                android:textSize="30sp"
+                                android:textColor="@color/background_material_dark"
+                                android:background="@drawable/circular_button_selector"/>
+
+                        </com.beaconsolutions.maestroid.Utilities.RippleView>
+
+                        <com.beaconsolutions.maestroid.Utilities.RippleView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="30dp"
+                            custom:rv_centered="true">
+
+                            <Button
+                                android:id="@+id/button_5"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:text="C"
+                                android:textSize="30sp"
+                                android:textColor="@color/background_material_dark"
+                                android:background="@drawable/circular_button_selector"/>
+
+                        </com.beaconsolutions.maestroid.Utilities.RippleView>
+
+                    </com.beaconsolutions.maestroid.Utilities.CircleLayout>
+
+                </com.beaconsolutions.maestroid.Utilities.RippleBackground>
+            </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center_horizontal"
+            android:layout_gravity="bottom"
+            android:padding="30dp">
+
+            <ImageButton
+                android:id="@+id/play_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/play_button_selector"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <ImageButton
+                android:id="@+id/pause_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/pause_button_selector"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <ImageButton
+                android:id="@+id/replay_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/replay_button_selector"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

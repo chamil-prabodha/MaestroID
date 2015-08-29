@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MaestroID</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity__result">Activity_Result</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_activity__level">Activity_Level</string>
+    <string name="title_activity_level">Select Level</string>
+    <string name="title_activity_task">TaskActivity</string>
+    <string name="font">fonts/OpenSans-Light.ttf</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_stat_slide_pager">StatSlidePagerActivity</string>
+    <string name="title_activity_level_stats">LevelStatsActivity</string>
+
+</resources>
